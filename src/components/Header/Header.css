@@ -2,12 +2,18 @@
     height: 34vw;
     
     margin: 30px auto;
-    background: url('C:\Users\dasta\OneDrive\Desktop\frontend\src\assets\imgmain.jpeg') no-repeat;
+    background: url('../assets/imgmain.jpeg') no-repeat;
     background-size: 1200px 540px;
     position: relative;
     border-radius: 20px;
 }
-
+.header-image {
+    width: 100%; /* Adjust this to desired width */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 540px; /* Set a maximum height */
+    border-radius: 20px; /* If you want rounded corners */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
 .bordered-text {
     color: white; /* Text color */
     text-shadow: 
